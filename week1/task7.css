@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  margin: 0;
+  padding: 0;
+  color: #334155;
+}
+
+header {
+  background-color: #0f172a;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  background-color: #1e293b;
+  padding: 8px 14px;
+  margin-right: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #334155;
+}
+
+nav a.blue-button {
+  background-color: #0076fe;
+}
+
+nav a.blue-button:hover {
+  background-color: #005ecb;
+}
+
+main {
+  background-color: white;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 35px;
+  color: #1e293b;
+}
+
+h2 {
+  font-size: 24px;
+  color: #1e293b;
+  margin-top: 30px;
+}
+
+.intro-box {
+  background-color: #fee2e2;
+  border-left: 4px solid red;
+  padding: 15px;
+  margin-bottom: 25px;
+  color: #7f1d1d;
+}
+
+.absolute-box {
+  background-color: #f8fafc;
+  border-left: 4px solid blue;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.absolute-example-box {
+  background-color: #f8fafc;
+  border-left: 4px solid blue;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.relative-box {
+  background-color: #fef3c7;
+  border-left: 4px solid orange;
+  padding: 15px;
+  margin-bottom: 25px;
+  color: #78350f;
+}
+
+main a {
+  color: blue;
+}
+
+main a:hover {
+  color: darkblue;
+}
+
+main div strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+main ul {
+  padding-left: 20px;
+}
+
+main li {
+  margin-bottom: 10px;
+}
